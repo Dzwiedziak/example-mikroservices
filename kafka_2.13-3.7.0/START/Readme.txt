@@ -1,0 +1,1 @@
+W przypadku błędu że ścieżka za długa uruchamiać w miejscu gdzie ścieżka jest krótka np C:/

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="example-service" />
         <module name="service-register" />
+        <module name="config-service" />
         <module name="api-gateway-service" />
         <module name="products-database-service" />
       </profile>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="example-service" options="-parameters" />
       <module name="products-database-service" options="-parameters" />
       <module name="service-register" options="-parameters" />
